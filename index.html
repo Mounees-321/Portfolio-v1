@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouneeswaran S — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky">
+
+  <div class="score-bar">
+    <div class="score-item"><span class="score-label">PLAYER</span><span>MOUNEES</span></div>
+    <div class="score-item"><span class="score-label">STATUS</span><span>ONLINE</span></div>
+    <div class="score-item"><span class="score-label">CODING STREAK</span><span class="coin-icon">192 DAYS</span></div>
+    <div class="score-item"><span class="score-label">RANK</span><span>S-RANK</span></div>
+    <div class="score-item"><span class="score-label">CURRENT MISSION</span><span>INTERNSHIP</span></div>
+    <div class="score-item"><span class="score-label">LIVES</span><span class="lives">❤️ 01</span></div>
+  </div>
+
+  <div class="cloud cloud-1"></div>
+  <div class="cloud cloud-2"></div>
+  <div class="cloud cloud-3"></div>
+
+  <div class="world-nav">
+    <button class="nav-btn active" onclick="showSection('home', event)">🍄 HOME</button>
+    <button class="nav-btn" onclick="showSection('skills', event)">⭐ SKILLS</button>
+    <button class="nav-btn" onclick="showSection('projects', event)">🔧 PROJECTS</button>
+    <button class="nav-btn" onclick="showSection('education', event)">📚 EDUCATION</button>
+    <button class="nav-btn" onclick="showSection('experience', event)">🏃 EXPERIENCE</button>
+    <button class="nav-btn" onclick="showSection('achievements', event)">🏆 ACHIEVEMENT</button>
+    <button class="nav-btn" onclick="showSection('contact', event)">📬 CONTACT</button>
+  </div>
+
+  <div class="stage">
+
+    <div class="section active" id="section-home">
+      <div class="mario-container">
+        <svg class="mario-sprite" width="64" height="80" viewBox="0 0 16 20" onclick="marioJump(this)">
+          <rect x="4" y="0" width="8" height="2" fill="#e52521"/>
+          <rect x="2" y="2" width="12" height="2" fill="#e52521"/>
+          <rect x="2" y="4" width="12" height="4" fill="#ffb347"/>
+          <rect x="6" y="5" width="2" height="1" fill="#000"/>
+          <rect x="10" y="5" width="2" height="1" fill="#000"/>
+          <rect x="4" y="7" width="8" height="1" fill="#8b4513"/>
+          <rect x="2" y="8" width="12" height="6" fill="#e52521"/>
+          <rect x="4" y="8" width="8" height="4" fill="#5c94fc"/>
+          <rect x="0" y="9" width="2" height="4" fill="#ffb347"/>
+          <rect x="14" y="9" width="2" height="4" fill="#ffb347"/>
+          <rect x="0" y="13" width="2" height="1" fill="#ffb347"/>
+          <rect x="14" y="13" width="2" height="1" fill="#ffb347"/>
+          <rect x="2" y="14" width="5" height="4" fill="#e52521"/>
+          <rect x="9" y="14" width="5" height="4" fill="#e52521"/>
+          <rect x="1" y="18" width="6" height="2" fill="#8b4513"/>
+          <rect x="9" y="18" width="6" height="2" fill="#8b4513"/>
+          <rect x="4" y="9" width="1" height="1" fill="#ffd700"/>
+          <rect x="11" y="9" width="1" height="1" fill="#ffd700"/>
+        </svg>
+
+        <div class="speech-bubble">
+          <div style="color:#e52521; font-size:10px; margin-bottom:6px;">IT'S-A ME!</div>
+          <div style="font-size:7px; line-height:2; color:#333;">
+            MOUNEESWARAN S<br>
+            AI & Data Science Student<br>
+            Madras Institute of Technology<br>
+            Anna University<br>
+            <span style="color:#e52521;">CGPA: 8.63 ⭐</span>
+          </div>
+          <div style="margin-top:8px;">
+            <span class="blink" style="font-size:7px; color:#e52521;">▶ WELCOME TO MY PORTFOLIO !</span>
+          </div>
+        </div>
+      </div>
+       
+      <div class="pipe-card">
+        <h3>📜 PLAYER BIO</h3>
+        <p>Hi, I'm Mouneeswaran, an AI & Data Science student and Developer focused on bridging advanced AI with seamless user experiences. I specialize in training custom Computer Vision & ML models, and building high-performance mobile apps using Flutter. Driven by strong technical problem-solving, I turn complex data pipelines into intelligent, scalable, and accessible real-world applications.</p>
+      </div>
+
+      <div class="link-row">
+        <a class="link-btn" href="https://linkedin.com/in/mounees" target="_blank">🔗 LINKEDIN</a>
+        <a class="link-btn" href="https://github.com/Mounees-321" target="_blank">💻 GITHUB</a>
+        <a class="link-btn" href="https://leetcode.com/u/LORD_ms/" target="_blank">⚔️ LEETCODE</a>
+        <a class="link-btn" href="mailto:mounees.professional@gmail.com">📧 EMAIL</a>
+      </div>
+    </div>
+
+    <div class="section" id="section-skills">
+      <div class="world-header">
+        <div class="world-title">⭐ WORLD 1-2: SKILLS</div>
+        <div class="world-sub">POWER-UPS COLLECTED</div>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <div class="warp-title"><span class="pipe-accent">LANGUAGES</span></div>
+        <div class="brick-grid">
+          <div class="brick-item"><span class="brick-label">LANG</span>Python</div>
+          <div class="brick-item"><span class="brick-label">LANG</span>C / C++</div>
+          <div class="brick-item"><span class="brick-label">LANG</span>Java</div>
+          <div class="brick-item"><span class="brick-label">LANG</span>R</div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <div class="warp-title"><span class="pipe-accent">DATA SCIENCE & ML</span></div>
+        <div class="brick-grid">
+          <div class="brick-item"><span class="brick-label">ML</span>Pandas / NumPy</div>
+          <div class="brick-item"><span class="brick-label">ML</span>Scikit-learn</div>
+          <div class="brick-item"><span class="brick-label">ML</span>TensorFlow</div>
+          <div class="brick-item"><span class="brick-label">ML</span>OpenCV</div>
+          <div class="brick-item"><span class="brick-label">ML</span>MediaPipe</div>
+          <div class="brick-item"><span class="brick-label">ML</span>LangChain / RAG</div>
+          <div class="brick-item"><span class="brick-label">ML</span>NLTK / NLP</div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <div class="warp-title"><span class="pipe-accent">MOBILE DEVELOPMENT</span></div>
+        <div class="brick-grid">
+          <div class="brick-item"><span class="brick-label">APP</span>Flutter</div>
+          <div class="brick-item"><span class="brick-label">APP</span>Dart</div>
+          <div class="brick-item"><span class="brick-label">APP</span>Firebase</div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <div class="warp-title"><span class="pipe-accent">WEB DEVELOPMENT & DATABASES</span></div>
+        <div class="brick-grid">
+          <div class="brick-item"><span class="brick-label">WEB</span>React</div>
+          <div class="brick-item"><span class="brick-label">WEB</span>FastAPI</div>
+          <div class="brick-item"><span class="brick-label">WEB</span>Flask</div>
+          <div class="brick-item"><span class="brick-label">WEB</span>HTML / CSS / JS</div>
+          <div class="brick-item"><span class="brick-label">DB</span>Oracle SQL</div>
+          <div class="brick-item"><span class="brick-label">DB</span>MongoDB</div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <div class="warp-title"><span class="pipe-accent">TOOLS</span></div>
+        <div class="brick-grid">
+          <div class="brick-item"><span class="brick-label">TOOL</span>Git / GitHub</div>
+          <div class="brick-item"><span class="brick-label">TOOL</span>Google Cloud</div>
+          <div class="brick-item"><span class="brick-label">TOOL</span>Power BI</div>
+          <div class="brick-item"><span class="brick-label">TOOL</span>Postman</div>
+          <div class="brick-item"><span class="brick-label">TOOL</span>Tableau</div>
+        </div>
+      </div>
+
+      <div class="pipe-card" style="margin-top:20px;">
+        <h3>🎯 SOFT SKILL STATS</h3>
+        <div class="prog-row">
+          <div class="prog-label">Creativity & Problem Solving</div>
+          <div class="prog-track"><div class="prog-fill" style="width:95%"></div><div class="prog-coins">★★★</div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">Analytical Thinking</div>
+          <div class="prog-track"><div class="prog-fill" style="width:92%"></div><div class="prog-coins">★★★</div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">Teamwork & Adaptability</div>
+          <div class="prog-track"><div class="prog-fill" style="width:88%"></div><div class="prog-coins">★★★</div></div>
+        </div>
+      </div>
+
+      <div style="background:#000; border:3px solid #ffd700; padding:14px; margin-top:14px; box-shadow:4px 4px 0 #ffd70033;">
+        <div style="font-size:8px; color:#ffd700; margin-bottom:10px; text-transform:uppercase;">⚔️ DSA POWER LEVEL</div>
+        <div class="prog-row">
+          <div class="prog-label">LeetCode + GFG Problems Solved</div>
+          <div class="prog-track">
+            <div class="prog-fill" style="width:83%"></div>
+            <div class="prog-coins">250+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section-projects">
+      <div class="world-header">
+        <div class="world-title">🔧 WORLD 2-1: PROJECTS</div>
+        <div class="world-sub">DUNGEONS CONQUERED</div>
+      </div>
+
+      <div class="project-card">
+        <h3>
+          <a href="https://agent.hellotars.com/conv/SfViAx" target="_blank">
+            🤖 Anna University RAG Chatbot <span style="font-size: 8px; color: #ffd700; margin-left: 8px;">[VIEW LIVE]</span>
+          </a>
+        </h3>
+        <img src="tars.png" alt="Anna University RAG Chatbot Preview" class="project-img" onclick="openPreviewModal(this.src, 'Anna University RAG Chatbot')">
+        <p>Built a RAG-based semantic search system using LangChain and TARS over Anna University web data, achieving 95%+ accuracy. Created automated pipeline to index unstructured data into ChromaDB using optimized chunking and re-ranking to reduce LLM hallucinations.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">TARS</span>
+          <span class="tech-tag">LangChain</span>
+          <span class="tech-tag">OpenAI</span>
+          <span class="tech-tag">ChromaDB</span>
+          <span class="tech-tag">RAG</span>
+          <span class="tech-tag">95%+ Accuracy</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>
+          <a href="https://huggingface.co/spaces/MSGod/sign_language_detection" target="_blank">
+            🤟 Indian Sign Language Recognition <span style="font-size: 8px; color: #ffd700; margin-left: 8px;">[VIEW LIVE]</span>
+          </a>
+        </h3>
+        <img src="sign.png" alt="Indian Sign Language Recognition Preview" class="project-img" onclick="openPreviewModal(this.src, 'Indian Sign Language Recognition')">
+        <p>Developed a real-time Indian Sign Language (ISL) recognition system for video sequences using MediaPipe and a Bi-LSTM network, achieving 94% accuracy. Extracted temporal landmark features from sequential hand movements, optimized for low-latency sequence inference and real-time prediction.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">MediaPipe</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Bi-LSTM</span>
+          <span class="tech-tag">OpenCV</span>
+          <span class="tech-tag">Hugging Face</span>
+          <span class="tech-tag">94% Accuracy</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>
+          <a href="https://drive.google.com/file/d/1WJS-vIjZzANIpGYoPXDTRBnc5BbV3OoV/view?usp=drive_link" target="_blank">
+            🤝 VOLDON – Volunteer Donation Platform <span style="font-size: 8px; color: #ffd700; margin-left: 8px;">[VIEW LIVE]</span>
+          </a>
+        </h3>
+        <img src="DONOR.png" alt="VOLDON Volunteer Donation Platform Preview" class="project-img" onclick="openPreviewModal(this.src, 'VOLDON Donation Platform')">
+        <p>Developed a cross-platform volunteer donation mobile app using Flutter, Firebase Auth, and Firestore. Integrated Google Maps API for real-time location tracking and distance-based matching between donors, volunteers, and receivers.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Flutter</span>
+          <span class="tech-tag">Firebase</span>
+          <span class="tech-tag">Firestore</span>
+          <span class="tech-tag">Maps API</span>
+          <span class="tech-tag">Cross-Platform</span>
+        </div>
+      </div> 
+
+      <div class="project-card">
+        <h3>
+          <a href="https://github.com/Mounees-321" target="_blank">
+            📚 Student Attendance Management System <span style="font-size: 8px; color: #ffd700; margin-left: 8px;">[VIEW CODE]</span>
+          </a>
+        </h3>
+        <img src="attend.png" alt="Student Attendance Management System Preview" class="project-img" onclick="openPreviewModal(this.src, 'Attendance Management System')">
+        <p>Developed a web-based student attendance management system to track student records, attendance, and class timetables. Built using MongoDB, React.js, Node.js, and Express.js, featuring secure CRUD operations, real-time attendance tracking, and responsive dashboard interfaces.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">React.js</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express.js</span>
+          <span class="tech-tag">REST API</span>
+          <span class="tech-tag">CRUD Operations</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>
+          <a href="https://github.com/Mounees-321/Smart_railway_track_monitoring_robot" target="_blank">
+            🚂 Smart Railway Track Monitoring Robot <span style="font-size: 8px; color: #ffd700; margin-left: 8px;">[VIEW CODE]</span>
+          </a>
+        </h3>
+        <img src="robot.png" alt="Smart Railway Track Monitoring Robot Preview" class="project-img" onclick="openPreviewModal(this.src, 'Smart Railway Track Monitoring Robot')">
+        <p>Built an autonomous railway track monitoring robot using ultrasonic, IR, and vibration sensors to detect obstacles, cracks, and abnormal vibrations in real time. Trained ML models including Decision Tree for sensor-based classification and HOG+SVM for image-based crack detection.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Arduino</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">OpenCV</span>
+          <span class="tech-tag">HOG+SVM</span>
+          <span class="tech-tag">Decision Tree</span>
+          <span class="tech-tag">IoT Sensors</span>
+        </div>
+      </div>
+    </div>
+       
+    <div class="section" id="section-education">
+      <div class="world-header">
+        <div class="world-title">📚 WORLD 2-2: EDUCATION</div>
+        <div class="world-sub">EXPERIENCE POINTS EARNED</div>
+      </div>
+
+      <div class="pipe-card" style="border-left:8px solid #ffd700; background:#1a1a2e;">
+        <h3>🏛️ Madras Institute of Technology, Anna University</h3>
+        <p style="color:#fff; font-size:8px; margin-bottom:6px;">B.Tech – Artificial Intelligence & Data Science</p>
+        <p>📅 2023 – Present</p>
+        <p style="margin-top:8px;">
+          <span style="background:#ffd700; color:#000; padding:4px 10px; font-size:8px; display:inline-block; border:2px solid #b8860b;">CGPA: 8.63 / 10.0</span>
+        </p>
+      </div>
+
+      <div class="pipe-card" style="border-left:8px solid #e52521; background:#1a1a2e;">
+        <h3>🏫 Shri Vidhya Bharathi Higher Secondary School</h3>
+        <p style="color:#fff; font-size:8px; margin-bottom:6px;">Higher Secondary – Namakkal</p>
+        <p>📅 2022 – 2023</p>
+        <p style="margin-top:8px;">
+          <span style="background:#e52521; color:#fff; padding:4px 10px; font-size:8px; display:inline-block; border:2px solid #8b0000;">SCORE: 96.67% 🔥</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="section" id="section-experience">
+      <div class="world-header">
+        <div class="world-title">🏃 WORLD 2-3: EXP & CERTIFICATIONS</div>
+        <div class="world-sub">STAGE CAMPAIGNS COMPLETED</div>
+      </div>
+
+      <div class="pipe-card" style="border-left:8px solid #00bfff; background:#1a1a2e; margin-bottom:14px;">
+        <h3>
+          💼 Data Analytics Intern — IBM Naan Mudhalvan
+          <a href="https://drive.google.com/drive/folders/1avJsGhONC-CXdBFZkZXLTjCjUAOBpyvY?usp=sharing" target="_blank" style="color:#ffd700; font-size:7px; float:right; text-decoration:underline;">[VIEW CREDENTIAL]</a>
+        </h3>
+        <p style="color:#ffd700; font-size:7px; margin-bottom:6px;">Enterprise Data Analysis & Business Intelligence Training</p>
+        <p>📅 <strong>DURATION:</strong> 2 Months (Core Training Campaign)</p>
+        <p style="margin-top:8px; font-size:7px; line-height:1.6;">
+          Gained hands-on expertise in enterprise data visualization and data modeling using <strong>IBM Cognos Analytics</strong>. Developed interactive reporting dashboards to translate complex datasets into actionable business insights.
+        </p>
+      </div>
+
+      <div class="pipe-card" style="border-left:8px solid #32cd32; background:#1a1a2e; margin-bottom:14px;">
+        <h3>
+          🌿 Sustainability Intern — 1M1B Green Internship
+          <a href="https://drive.google.com/drive/folders/1avJsGhONC-CXdBFZkZXLTjCjUAOBpyvY?usp=sharing" target="_blank" style="color:#ffd700; font-size:7px; float:right; text-decoration:underline;">[VIEW CREDENTIAL]</a>
+        </h3>
+        <p style="color:#ffd700; font-size:7px; margin-bottom:6px;">Sustainability & Environmental Impact Skills Accelerator</p>
+        <p>📅 <strong>DURATION:</strong> 4 Weeks (Skill Accelerator Program)</p>
+        <p style="margin-top:8px; font-size:7px; line-height:1.6;">
+          Engaged in eco-focused problem solving and sustainable design methodologies. Developed green mindset skills aimed at driving environmental impact and community-centric sustainability initiatives.
+        </p>
+      </div>
+
+      <div style="margin-top:24px;">
+        <div class="warp-title"><span class="pipe-accent">VERIFIED INVENTORY</span></div>
+        <div class="cert-grid">
+          
+          <div class="cert-item-card">
+            <span class="cert-badge cv-badge">CV</span>
+            <div class="cert-details">
+              <h4>Computer Vision Excellence</h4>
+              <span class="cert-issuer">OpenCV University</span>
+              <span class="cert-grade">GRADE: 100% ★</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/12e-IEQXH27Pv2lBpaVxBRdkW0-69xh2k?usp=sharing" target="_blank" class="cert-link">[VERIFY]</a>
+          </div>
+
+          <div class="cert-item-card">
+            <span class="cert-badge dl-badge">MATH</span>
+            <div class="cert-details">
+              <h4>Probability & Statistics</h4>
+              <span class="cert-issuer">DeepLearning.AI (Coursera)</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/12e-IEQXH27Pv2lBpaVxBRdkW0-69xh2k?usp=sharing" target="_blank" class="cert-link">[VERIFY]</a>
+          </div>
+
+          <div class="cert-item-card">
+            <span class="cert-badge sql-badge">SQL</span>
+            <div class="cert-details">
+              <h4>SQL Advanced</h4>
+              <span class="cert-issuer">HackerRank Profile</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/12e-IEQXH27Pv2lBpaVxBRdkW0-69xh2k?usp=sharing" target="_blank" class="cert-link">[VERIFY]</a>
+          </div>
+
+          <div class="cert-item-card">
+            <span class="cert-badge bi-badge">BI</span>
+            <div class="cert-details">
+              <h4>Data Analysis & Visualization</h4>
+              <span class="cert-issuer">Microsoft Power BI Certified</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/12e-IEQXH27Pv2lBpaVxBRdkW0-69xh2k?usp=sharing" target="_blank" class="cert-link">[VERIFY]</a>
+          </div>
+
+          <div class="cert-item-card">
+            <span class="cert-badge flutter-badge">APP</span>
+            <div class="cert-details">
+              <h4>Application Dev with Flutter</h4>
+              <span class="cert-issuer">IBM (Coursera Path)</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/12e-IEQXH27Pv2lBpaVxBRdkW0-69xh2k?usp=sharing" target="_blank" class="cert-link">[VERIFY]</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+         
+    <div class="section" id="section-achievements">
+      <div class="world-header">
+        <div class="world-title">🏆 WORLD 3-1: ACHIEVEMENTS</div>
+        <div class="world-sub">TROPHIES UNLOCKED</div>
+      </div>
+
+      <div class="pipe-card" style="border-left:8px solid #ffd700; background:#1a1a2e; margin-bottom:20px;">
+        <h3>🎭 LEADERSHIP & CAMPAIGNS</h3>
+        <p style="color:#ffd700; font-size:8px; margin-bottom:6px;">Event Co-Head — BRC Club, Madras Institute of Technology</p>
+        <p>Organizing and leading complex technical symposiums, literary events, and cultural campaigns at university level.</p>
+      </div>
+
+      <div class="star-row">
+        <div class="star-card">
+          <strong>Google Solution Challenge Hackathon</strong><br>
+          <span style="font-size:6px; color:#aaa;">National-level participation</span>
+        </div>
+        <div class="star-card">
+          <strong>Runner-Up: MIT Intra-College Hackathon</strong><br>
+          <span style="font-size:6px; color:#aaa;">Real-time Posture Monitoring System</span>
+        </div>
+        <div class="star-card">
+          <strong>Winner: Hat-trick 🏆</strong>
+          <ul style="margin: 4px 0; padding-left: 12px; font-size: 7px; text-align: left;">
+            <li>DS Auction Arena</li>
+            <li>Blind Coding</li>
+            <li>Squid Game</li>
+          </ul>
+          <span style="font-size:6px; color:#aaa;">National-level Symposium @ MIT</span>
+        </div>
+      </div>
+
+      <div class="pipe-card" style="margin-top:14px;">
+        <h3>🌐 GLOBAL COMMUNICATION</h3>
+        <ul>
+          <li>English — Professional Proficiency</li>
+          <li>Tamil — Native Speaker</li>
+          <li>Hindi — Beginner Level</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section" id="section-contact">
+      <div class="world-header">
+        <div class="world-title">📬 WORLD 3-2: CONTACT</div>
+        <div class="world-sub">SEND A POWER-UP MESSAGE!</div>
+      </div>
+
+      <div id="contact-fireworks" style="position:relative; height:80px; margin-bottom:10px; text-align:center; display:flex; align-items:center; justify-content:center;">
+        <span style="font-size:8px; color:#ffd700; text-shadow:2px 2px 0 #000;" class="blink">✉️ CONNECT WITH MOUNEESWARAN!</span>
+      </div>
+
+      <div class="pipe-card" style="background:#1a1a2e; border-left:8px solid #5c94fc;">
+        <h3>📞 CONTACT INFO</h3>
+        <ul>
+          <li>📱 +91 7094017332</li>
+          <li>📧 mounees.professional@gmail.com</li>
+          <li>🔗 LinkedIn: Mouneeswaran S</li>
+          <li>💻 GitHub: Mounees-321</li>
+        </ul>
+      </div>
+
+      <div class="link-row">
+        <a class="link-btn" href="mailto:mounees.professional@gmail.com">📧 SEND EMAIL</a>
+        <a class="link-btn" href="https://linkedin.com/in/mounees" target="_blank">🔗 LINKEDIN</a>
+        <a class="link-btn" href="https://github.com/Mounees-321" target="_blank">💻 GITHUB</a>
+        <a class="link-btn" href="tel:+917094017332">📱 CALL</a>
+      </div>
+
+      <div style="text-align:center; margin-top:20px; font-size:9px; color:#ffd700; text-shadow:2px 2px 0 #000;">
+        THANK YOU FOR PLAYING!<br><br>
+        <span style="font-size:8px; color:#fff; text-shadow:1px 1px 0 #000;">© MOUNEESWARAN S — 2026</span>
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+  </div>
+
+  <div class="ground"></div>
+</div>
+
+<div id="retroImageModal" class="retro-modal" onclick="closePreviewModal()">
+  <span class="retro-modal-close">&times;</span>
+  <div class="retro-modal-content-wrapper" onclick="event.stopPropagation()">
+    <div id="retroModalTitle" class="retro-modal-title">PREVIEW</div>
+    <img class="retro-modal-img" id="retroModalImg" onclick="closePreviewModal()" alt="Expanded Project Screenshot">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
